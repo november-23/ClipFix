@@ -16,7 +16,7 @@ namespace ClipFix
     {
         public const string GUID = "spapi.etg.clipoverflow";
         public const string NAME = "Clip Overflow";
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.0.1";
 
         public static MethodInfo f1cm_f = AccessTools.Method(typeof(Plugin), nameof(Fix1ClipMods_Fix));
 
